@@ -1,7 +1,7 @@
 package com.tverdokhlebd.coin.info.requestor;
 
 import com.tverdokhlebd.coin.info.CoinInfo;
-import com.tverdokhlebd.mining.coin.CoinType;
+import com.tverdokhlebd.mining.commons.coin.CoinType;
 
 /**
  * Interface for requesting coin info.

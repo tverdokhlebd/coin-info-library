@@ -2,7 +2,7 @@ package com.tverdokhlebd.coin.info;
 
 import java.math.BigDecimal;
 
-import com.tverdokhlebd.mining.coin.CoinType;
+import com.tverdokhlebd.mining.commons.coin.CoinType;
 
 /**
  * General information about coin (block time, block reward and etc.).

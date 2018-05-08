@@ -7,9 +7,9 @@ import java.util.List;
 import com.tverdokhlebd.coin.info.CoinInfo;
 import com.tverdokhlebd.coin.info.CoinInfoCaching;
 import com.tverdokhlebd.coin.info.CoinInfoType;
-import com.tverdokhlebd.mining.coin.CoinType;
-import com.tverdokhlebd.mining.http.BaseRequestor;
-import com.tverdokhlebd.mining.http.RequestException;
+import com.tverdokhlebd.mining.commons.coin.CoinType;
+import com.tverdokhlebd.mining.commons.http.BaseRequestor;
+import com.tverdokhlebd.mining.commons.http.RequestException;
 
 import okhttp3.OkHttpClient;
 

@@ -1,8 +1,8 @@
 package com.tverdokhlebd.coin.info;
 
-import static com.tverdokhlebd.mining.http.ErrorCode.API_ERROR;
-import static com.tverdokhlebd.mining.http.ErrorCode.HTTP_ERROR;
-import static com.tverdokhlebd.mining.http.ErrorCode.PARSE_ERROR;
+import static com.tverdokhlebd.mining.commons.http.ErrorCode.API_ERROR;
+import static com.tverdokhlebd.mining.commons.http.ErrorCode.HTTP_ERROR;
+import static com.tverdokhlebd.mining.commons.http.ErrorCode.PARSE_ERROR;
 import static org.junit.Assert.assertEquals;
 
 import java.math.BigDecimal;
@@ -12,8 +12,8 @@ import org.json.JSONObject;
 import com.tverdokhlebd.coin.info.requestor.CoinInfoRequestor;
 import com.tverdokhlebd.coin.info.requestor.CoinInfoRequestorException;
 import com.tverdokhlebd.coin.info.requestor.CoinInfoRequestorFactory;
-import com.tverdokhlebd.mining.coin.CoinType;
-import com.tverdokhlebd.mining.utils.HttpClientUtils;
+import com.tverdokhlebd.mining.commons.coin.CoinType;
+import com.tverdokhlebd.mining.commons.utils.HttpClientUtils;
 
 import okhttp3.OkHttpClient;
 

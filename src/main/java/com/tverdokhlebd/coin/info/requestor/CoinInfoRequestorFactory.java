@@ -2,7 +2,7 @@ package com.tverdokhlebd.coin.info.requestor;
 
 import com.tverdokhlebd.coin.info.CoinInfoType;
 import com.tverdokhlebd.coin.info.whattomine.WhatToMineRequestor;
-import com.tverdokhlebd.mining.http.HttpClientFactory;
+import com.tverdokhlebd.mining.commons.http.HttpClientFactory;
 
 import okhttp3.OkHttpClient;
 

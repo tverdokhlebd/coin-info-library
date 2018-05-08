@@ -1,8 +1,8 @@
 package com.tverdokhlebd.coin.info.whattomine;
 
 import static com.tverdokhlebd.coin.info.CoinInfoType.WHAT_TO_MINE;
-import static com.tverdokhlebd.mining.coin.CoinType.BCH;
-import static com.tverdokhlebd.mining.coin.CoinType.BTC;
+import static com.tverdokhlebd.mining.commons.coin.CoinType.BCH;
+import static com.tverdokhlebd.mining.commons.coin.CoinType.BTC;
 
 import java.math.BigDecimal;
 
@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import com.tverdokhlebd.coin.info.Utils;
 import com.tverdokhlebd.coin.info.requestor.CoinInfoRequestorException;
-import com.tverdokhlebd.mining.utils.HttpClientUtils;
+import com.tverdokhlebd.mining.commons.utils.HttpClientUtils;
 
 import okhttp3.OkHttpClient;
 

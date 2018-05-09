@@ -104,8 +104,8 @@ public class WhatToMineRequestor extends CoinInfoBaseRequestor {
 
     @Override
     public void setCachedCoinInfo(CoinType coinType, CoinInfo coinInfo) {
-        SimpleEntry<CoinInfo, Date> cachedCoinMarket = CACHED_COIN_INFO_MAP.get(coinType);
-        CACHED_COIN_INFO_MAP.replace(coinType, new SimpleEntry<CoinInfo, Date>(coinInfo, cachedCoinMarket.getValue()));
+        SimpleEntry<CoinInfo, Date> cachedCoinInfo = CACHED_COIN_INFO_MAP.get(coinType);
+        CACHED_COIN_INFO_MAP.replace(coinType, new SimpleEntry<CoinInfo, Date>(coinInfo, cachedCoinInfo.getValue()));
     }
 
     @Override
